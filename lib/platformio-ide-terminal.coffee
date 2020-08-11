@@ -70,7 +70,7 @@ module.exports =
           title: 'Auto Run Command'
           description: 'Command to run on terminal initialization.'
           type: 'string'
-          default: ''
+          default: 'export PATH=~/opt/anaconda3/bin:$PATH'
         mapTerminalsTo:
           title: 'Map Terminals To'
           description: 'Map terminals to each file or folder. Default is no action or mapping at all. **Restart required.**'
